@@ -55,7 +55,7 @@ $('#submitBtn').click(function() {
   console.log("data:" + dataString);
   $.ajax({
     type: "POST",
-    url: "http://10.40.111.80:1337/user/login",
+    url: "http://54.164.38.122:1337/user/login",
     data: dataString
   }).done(function(data){
     if (data.email !== null) {

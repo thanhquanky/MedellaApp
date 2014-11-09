@@ -35,7 +35,7 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="mail.html">
+                    <a href="main.html">
                         Medella
                     </a>
                 </li>
@@ -49,19 +49,76 @@
                     <a href="appointment.html">Appointment</a>
                 </li>
                 <li>
-                    <a href="doctor.html">Doctor</a>
+                    <a href="doctor.html">Network</a>
                 </li>
                 
             </ul>
         </div>
-        <!-- /#sidebar-wrapper -->
+        <form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Appointment</legend>
+
+<!-- Text input-->
+<div class="control-group" width="100%">
+  <label class="control-label" for="Current Doctor">Current Doctor</label>
+  <div class="controls">
+    <input id="Current Doctor" name="Current Doctor" type="text" placeholder="Insert Doctor Name" class="input-xlarge">
+    
+  </div>
+</div>
+
+
+
+<!-- Select Basic -->
+<div class="control-group">
+  <label class="control-label" for="selectdate">Select Appointment Date</label>
+  <div class="controls">
+    <select id="selectdate" name="selectdate" class="input-xlarge">
+      <option>Select Date &amp; Time</option>
+      <option>Option two</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Multiple -->
+<div class="control-group">
+  <label class="control-label" for="currentdrugs">Need Refill?</label>
+  <div class="controls">
+    <select id="currentdrugs" name="currentdrugs" class="input-xlarge" multiple="multiple">
+      <option>Prescription Drug #1</option>
+      <option>Prescription Drug #2</option>
+    </select>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="control-group">
+  <label class="control-label" for="textarea">Details (Optional)</label>
+  <div class="controls">                     
+    <textarea id="textarea" name="textarea">Please provide any additional details or concerns</textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="control-group">
+  <label class="control-label" for="singlebutton"></label>
+  <div class="controls">
+    <button id="singlebutton" name="singlebutton" class="btn btn-success">Create Appointment</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+<!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
       		 
            
         <!-- /#page-content-wrapper -->
 
-    </div>
+   
     <!-- /#wrapper -->
 
     <!-- jQuery -->

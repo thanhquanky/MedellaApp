@@ -1,4 +1,9 @@
 html {
-	background: url('http://subtlepatterns.com/patterns/wood_pattern.png') !important;
+	
 	font-size: 10pt;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+
