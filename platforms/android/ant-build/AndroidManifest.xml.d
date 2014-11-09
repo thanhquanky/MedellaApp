@@ -1,2 +1,2 @@
-/home/thanhquanky/workspace/PushNotificationSample/platforms/android/ant-build/AndroidManifest.xml : \
-/home/thanhquanky/workspace/PushNotificationSample/platforms/android/AndroidManifest.xml \
+/home/thanhquanky/workspace/MedellaApp/platforms/android/ant-build/AndroidManifest.xml : \
+/home/thanhquanky/workspace/MedellaApp/platforms/android/AndroidManifest.xml \

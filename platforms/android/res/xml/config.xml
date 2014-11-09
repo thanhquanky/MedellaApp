@@ -4,12 +4,12 @@
     <feature name="PushPlugin">
         <param name="android-package" value="com.plugin.gcm.PushPlugin" />
     </feature>
-    <name>PushNotificationApp</name>
+    <name>Medella</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Medella helps reminding patient to take their medication.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="thanhquanky@gatech.edu" href="http://thanhquanky.com">
+        Medella Team
     </author>
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="3.5.0" />
